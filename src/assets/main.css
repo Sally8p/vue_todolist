@@ -1,0 +1,102 @@
+@font-face {
+  font-family: 'ONE-Mobile-POP';
+  src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2105_2@1.0/ONE-Mobile-POP.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'ONE-Mobile-POP';
+  
+}
+
+.title {
+  text-align: center;
+  font-weight: bold;
+  font-size: 20pt;
+  height: 100px;
+  justify-content: center;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url('checkpattern.png');
+  background-size: cover;
+  margin-bottom: 20px;
+  text-shadow: 7px 5px 4px #000;
+}
+
+.todo-done {
+  text-decoration: line-through;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  padding: 10px;
+}
+
+.panel-borderless {
+  border: 0;
+  box-shadow: none;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.test {
+  /* 배경색 */
+  background-color: hsl(177, 22%, 53%);
+  width: 100%;
+  /* 배경 이미지 */
+    background-image: url('forest.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+
+}
+.test1{
+  width: 100%;
+  border-radius: 5px;
+}
+.todo-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+  border-bottom: 1px solid #444;
+}
+
+.todo-item:last-child {
+  border-bottom: none;
+}
+
+.todo-item-content {
+  flex-grow: 1;
+  /* 글씨 색상 */
+  color: #000000;
+}
+
+.todo-item-actions {
+  display: flex;
+  gap: 10px;
+}
+
+.v-field__field{
+  background: #fff;
+  border-radius: 5px;
+}
+.v-list{
+  border-radius: 5px;
+}
+.v-label{
+  color: #000000;
+}
+.v-field__input {
+  color: #000;
+}
