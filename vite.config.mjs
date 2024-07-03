@@ -10,7 +10,7 @@ import { fileURLToPath, URL } from 'node:url'
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  base: '/vue_todolist/',
+  base: '/vue_todolist_build/',
   plugins: [
     Vue({
       template: { transformAssetUrls }
