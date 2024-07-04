@@ -24,7 +24,7 @@ body {
   background-image: url('checkpattern.png');
   background-size: cover;
   margin-bottom: 20px;
-  text-shadow: 7px 5px 4px #000;
+  text-shadow: 0.5px 2px 3px #000;
 }
 
 .todo-done {
